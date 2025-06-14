@@ -1,6 +1,5 @@
 package com.benson.sfmdemo.vo;
 
-
 import lombok.Data;
 
 @Data

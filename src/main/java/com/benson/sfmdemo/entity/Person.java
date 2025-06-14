@@ -1,7 +1,6 @@
 package com.benson.sfmdemo.entity;
 
 import jakarta.persistence.*;
-import java.time.LocalDate;
 import lombok.Data;
 
 @Entity
