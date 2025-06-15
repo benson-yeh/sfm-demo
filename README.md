@@ -9,8 +9,8 @@
 
 This project demonstrates two different ways to use SimpleFlatMapper:
 
-1. Creating mapper instances on-demand
-2. Pre-building mapper instances for reuse
+1. **Creating mapper instances on-demand** - Implemented in `JdbcRunner.java:15-20`, where a new RowMapper is created every time the `query()` method is called
+2. **Pre-building mapper instances for reuse** - Implemented in `PersonLoginRecordDao.java:24,30-31`, where the RowMapper is created once during construction and stored as a field for reuse
 
 ## Important Database Notice
 
@@ -22,3 +22,6 @@ and populate data.
 ## reference
 
 - https://simpleflatmapper.org/0102-getting-started-jdbc.html
+
+---
+*This documentation was generated with [Claude Code](https://claude.ai/code)*
